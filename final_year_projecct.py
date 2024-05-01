@@ -185,7 +185,7 @@ def manual_input():
   print("Predicted Domain :- ", websites[minInd]['age'], websites[minInd]['category'], )
   # print("Number of visitor in that particular domain till now: ", currNoOfVisitor + 1)
 
-excel_file = '/content/ProjectSurvey.xlsx'
+excel_file = "ProjectSurvey.xlsx"
 df = pd.read_excel(excel_file)
 feedData(df)
 
